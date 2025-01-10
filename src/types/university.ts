@@ -395,7 +395,7 @@ export const universities: University[] = [
   {
     "name": "Brown University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/209x199/7c872473dd/brown.png",
     "graduatesByYear": {
       "2024": 2,
       "2025": 2,
@@ -551,7 +551,7 @@ export const universities: University[] = [
   {
     "name": "Carnegie Mellon University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/225x225/09f1f3ba55/carnegie.png",
     "graduatesByYear": {
       "2024": 1,
       "2025": 4,
@@ -875,7 +875,7 @@ export const universities: University[] = [
   {
     "name": "Dartmouth College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/200x200/3f26471d7f/dartmouth.png",
     "graduatesByYear": {
       "2024": 0,
       "2025": 1,
@@ -995,7 +995,7 @@ export const universities: University[] = [
   {
     "name": "Duke University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/1200x1478/74f315b417/duke.png",
     "graduatesByYear": {
       "2024": 1,
       "2025": 1,
@@ -2135,7 +2135,7 @@ export const universities: University[] = [
   {
     "name": "Northwestern University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/1200x1200/1dfbb3316a/northwestern.png",
     "graduatesByYear": {
       "2024": 1,
       "2025": 4,
@@ -2303,7 +2303,7 @@ export const universities: University[] = [
   {
     "name": "Princeton University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/750x422/4dcfa2918d/princeton.png",
     "graduatesByYear": {
       "2024": 1,
       "2025": 2,
@@ -2399,7 +2399,7 @@ export const universities: University[] = [
   {
     "name": "Rice University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/162x189/5199ae2aca/rice.png",
     "graduatesByYear": {
       "2024": 0,
       "2025": 1,
@@ -5171,7 +5171,7 @@ export const universities: University[] = [
   {
     "name": "Vanderbilt University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/233x195/aae7423d49/vanderbilt.png",
     "graduatesByYear": {
       "2024": 0,
       "2025": 2,
@@ -5339,7 +5339,7 @@ export const universities: University[] = [
   {
     "name": "Washington University in St. Louis",
     "country": "United States",
-    "logo": "",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/1200x1200/73c26a8fc8/washingtonu.png",
     "graduatesByYear": {
       "2024": 0,
       "2025": 1,

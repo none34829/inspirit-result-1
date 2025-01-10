@@ -1,42 +1,99 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { University, universities } from '../types/university';
+import { University, universities, UniversityCategory } from '../types/university';
+
+// Define Ivy+ universities
+const IVY_PLUS = new Set([
+  // Ivy League
+  'Harvard University',
+  'Yale University',
+  'Princeton University',
+  'Columbia University',
+  'University of Pennsylvania',
+  'Brown University',
+  'Dartmouth College',
+  'Cornell University',
+  // Top 20 and other elite institutions
+  'Stanford University',
+  'Massachusetts Institute of Technology',
+  'California Institute of Technology',
+  'Carnegie Mellon University',
+  'University of Chicago',
+  'Johns Hopkins University',
+  'Northwestern University',
+  'Duke University',
+  'Rice University',
+  'Vanderbilt University',
+  'Washington University in St. Louis'
+]);
 
 const UniversityList = () => {
-  // Add state for universities to force re-render
   const [allUniversities, setAllUniversities] = useState<University[]>([]);
   const [classYearFilter, setClassYearFilter] = useState<string>('');
+  const [categoryFilter, setCategoryFilter] = useState<UniversityCategory>('all');
+  const [visibleCount, setVisibleCount] = useState<number>(20);
 
-  // Calculate total graduates for a university based on selected class year
   const getGraduates = (university: University): number => {
     if (!classYearFilter) {
-      // If no year selected, sum all years
       return Object.values(university.graduatesByYear).reduce((a, b) => a + b, 0);
     }
     const year = parseInt(classYearFilter);
     return university.graduatesByYear[year] || 0;
   };
 
-  // Load and filter universities on mount or when filter changes
   useEffect(() => {
     console.log('Loading universities...');
     console.log('Class year filter:', classYearFilter);
+    console.log('Category filter:', categoryFilter);
 
-    // Filter universities to only show those with graduates in the selected year
-    const filtered = classYearFilter 
-      ? universities.filter(uni => uni.graduatesByYear[parseInt(classYearFilter)] > 0)
-      : universities;
+    let filtered = universities;
+
+    // Apply category filter
+    if (categoryFilter !== 'all') {
+      if (categoryFilter === 'us_colleges') {
+        filtered = filtered.filter(uni => uni.country === "United States");
+      } else if (categoryFilter === 'non_us_colleges') {
+        filtered = filtered.filter(uni => uni.country !== "United States");
+      } else if (categoryFilter === 'ivy_plus') {
+        filtered = filtered.filter(uni => IVY_PLUS.has(uni.name));
+      }
+    }
+
+    // Apply year filter
+    if (classYearFilter) {
+      filtered = filtered.filter(uni => 
+        uni.graduatesByYear[parseInt(classYearFilter)] > 0
+      );
+    }
 
     console.log('Filtered universities length:', filtered.length);
     setAllUniversities(filtered);
-  }, [classYearFilter]); // Re-run when filter changes
+    setVisibleCount(20); // Reset visible count when filters change
+  }, [classYearFilter, categoryFilter]);
 
-  // Calculate total graduates for the current view
   const totalGraduates = allUniversities.reduce((sum, university) => sum + getGraduates(university), 0);
-
-  // Default university logo
   const defaultLogo = "https://img2.storyblok.com/0x60/f/112543/256x256/3c32249a6e/default-university.png";
+
+  const loadMore = () => {
+    setVisibleCount(prev => Math.min(prev + 20, allUniversities.length));
+  };
+
+  const visibleUniversities = allUniversities.slice(0, visibleCount);
+  const hasMore = visibleCount < allUniversities.length;
+
+  const getCategoryDisplayName = (category: UniversityCategory): string => {
+    switch (category) {
+      case 'us_colleges':
+        return 'US Colleges';
+      case 'non_us_colleges':
+        return 'Non-US Colleges';
+      case 'ivy_plus':
+        return 'Ivy League+';
+      default:
+        return 'All Universities';
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 py-12">
@@ -50,7 +107,27 @@ const UniversityList = () => {
         </div>
 
         {/* Filters Section */}
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center gap-4 mb-8">
+          {/* Category Filter */}
+          <div className="relative w-64">
+            <select
+              className="w-full px-4 py-3 bg-gray-800/50 border-2 border-purple-500/30 rounded-xl appearance-none backdrop-blur-sm text-white cursor-pointer focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-400/20 transition-all duration-300"
+              value={categoryFilter}
+              onChange={(e) => setCategoryFilter(e.target.value as UniversityCategory)}
+            >
+              <option value="all">All Universities</option>
+              <option value="us_colleges">US Colleges</option>
+              <option value="non_us_colleges">Non-US Colleges</option>
+              <option value="ivy_plus">Ivy League+</option>
+            </select>
+            <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-purple-400">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
+
+          {/* Year Filter */}
           <div className="relative w-64">
             <select
               className="w-full px-4 py-3 bg-gray-800/50 border-2 border-blue-500/30 rounded-xl appearance-none backdrop-blur-sm text-white cursor-pointer focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-300"
@@ -75,14 +152,15 @@ const UniversityList = () => {
         {/* Stats Section */}
         <div className="text-center mb-16">
           <p className="text-gray-300 text-lg">
-            Showing {allUniversities.length} universities with {totalGraduates} graduates
+            Showing {visibleUniversities.length} of {allUniversities.length} universities with {totalGraduates} graduates
             {classYearFilter ? ` from Class of ${classYearFilter}` : ' across all years'}
+            {categoryFilter !== 'all' ? ` in ${getCategoryDisplayName(categoryFilter)}` : ''}
           </p>
         </div>
 
         {/* University Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {allUniversities.map((university, index) => (
+          {visibleUniversities.map((university, index) => (
             <div
               key={index}
               className="group relative bg-gray-800/40 rounded-2xl overflow-hidden backdrop-blur-sm border border-blue-500/20 hover:border-blue-400/50 transition-all duration-500"
@@ -97,38 +175,52 @@ const UniversityList = () => {
               <div className="relative p-6">
                 <div className="flex flex-col items-center text-center">
                   {/* Logo Container with Glow Effect */}
-                  <div className="relative w-32 h-32 mb-6">
-                    <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-500 animate-pulse" />
-                    <div className="relative w-full h-full rounded-xl bg-gray-900/50 p-4 backdrop-blur-sm flex items-center justify-center border border-blue-500/30 group-hover:border-blue-400/50 transition-colors duration-300">
-                      {university.logo ? (
-                        <img
-                          src={university.logo}
-                          alt={`${university.name} logo`}
-                          className="max-w-full max-h-full object-contain drop-shadow-2xl"
-                        />
-                      ) : (
-                        <img
-                          src={defaultLogo}
-                          alt="Default University Logo"
-                          className="max-w-full max-h-full object-contain drop-shadow-2xl"
-                        />
-                      )}
-                    </div>
+                  <div className="relative w-24 h-24 mb-4">
+                    <div className="absolute inset-0 bg-blue-500/20 rounded-full filter blur-xl scale-150 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <img
+                      src={university.logo || defaultLogo}
+                      alt={`${university.name} logo`}
+                      className="w-full h-full object-contain relative z-10"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = defaultLogo;
+                      }}
+                    />
                   </div>
 
-                  {/* University Info with Hover Effects */}
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors duration-300">
-                    {university.name}
-                  </h3>
-                  <p className="text-gray-400 mb-4">{university.country}</p>
-                  <p className="text-blue-400 font-semibold">
-                    {getGraduates(university)} {getGraduates(university) === 1 ? 'Graduate' : 'Graduates'}
+                  {/* University Name */}
+                  <h3 className="text-xl font-semibold text-white mb-2">{university.name}</h3>
+                  
+                  {/* Graduate Count */}
+                  <p className="text-blue-400">
+                    {getGraduates(university)} graduate{getGraduates(university) !== 1 ? 's' : ''}
                   </p>
                 </div>
               </div>
             </div>
           ))}
         </div>
+
+        {/* Load More Button */}
+        {hasMore && (
+          <div className="flex justify-center mt-12">
+            <button
+              onClick={loadMore}
+              className="group relative px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl text-white font-semibold overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25"
+            >
+              {/* Button Background Animation */}
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              
+              {/* Button Content */}
+              <div className="relative flex items-center space-x-2">
+                <span>Load More</span>
+                <svg className="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </div>
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
