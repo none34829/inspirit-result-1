@@ -10,9 +10,37 @@
   font-display: swap;
 }
 
+:root {
+  --heading-font-font-family: 'Fat Frank', sans-serif;
+  --heading-font-font-style: normal;
+  --heading-font-font-weight: 400;
+  --heading-font-line-height: 1.2;
+  --heading-font-letter-spacing: 0;
+  --heading-font-text-transform: none;
+  --heading-1-size-value: 4;
+  --headingExtraLargeColor: #000000;
+}
+
 @layer base {
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Fat Frank', sans-serif;
+  }
+}
+
+h1 {
+  color: var(--headingExtraLargeColor);
+  font-family: var(--heading-font-font-family);
+  font-style: var(--heading-font-font-style);
+  font-weight: var(--heading-font-font-weight);
+  line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-1-size-value)) / 25));
+  letter-spacing: var(--heading-font-letter-spacing);
+  text-transform: var(--heading-font-text-transform);
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 768px), screen and (max-width: calc(1271px)) and (orientation: landscape) {
+  h1 {
+    font-size: calc((var(--heading-1-size-value) - 1) * 1.2vw + 1rem);
   }
 }
 

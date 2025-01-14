@@ -1,0 +1,205 @@
+export type UniversityCategory = 'all' | 'us_colleges' | 'non_us_colleges' | 'ivy_plus';
+
+export interface University {
+  name: string;
+  country: string;
+  logo: string;
+  graduatesByYear: {
+    [key: number]: number;  // key is the year (2024-2028), value is number of graduates
+  };
+}
+
+export const universities: University[] = [
+  {
+    "name": "Aalto University",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 1,
+      "2026": 0,
+      "2027": 0,
+      "2028": 0
+    }
+  },
+  {
+    "name": "Adrian College",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 0,
+      "2027": 1,
+      "2028": 0
+    }
+  },
+  {
+    "name": "Africa Nazarene University",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 1,
+      "2026": 0,
+      "2027": 0,
+      "2028": 0
+    }
+  },
+  {
+    "name": "American University",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 0,
+      "2027": 2,
+      "2028": 0
+    }
+  },
+  {
+    "name": "American University of Beirut",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 0,
+      "2027": 1,
+      "2028": 0
+    }
+  },
+  {
+    "name": "American University of Sharjah",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 0,
+      "2027": 1,
+      "2028": 0
+    }
+  },
+  {
+    "name": "Amherst College",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 1,
+      "2027": 2,
+      "2028": 1
+    }
+  },
+  {
+    "name": "Amsterdam University College",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 1,
+      "2026": 0,
+      "2027": 0,
+      "2028": 0
+    }
+  },
+  {
+    "name": "Appalachian State University",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 0,
+      "2027": 0,
+      "2028": 1
+    }
+  },
+  {
+    "name": "Arizona State University",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 2,
+      "2026": 7,
+      "2027": 6,
+      "2028": 2
+    }
+  },
+  {
+    "name": "Ashoka University",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 1,
+      "2025": 0,
+      "2026": 0,
+      "2027": 3,
+      "2028": 0
+    }
+  },
+  {
+    "name": "Ateneo de Manila University",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 1,
+      "2027": 0,
+      "2028": 0
+    }
+  },
+  {
+    "name": "Babson College",
+    "country": "United States",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/256x256/3c32249a6e/babson.png",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 2,
+      "2027": 1,
+      "2028": 0
+    }
+  },
+  {
+    "name": "Barnard College",
+    "country": "United States",
+    "logo": "https://img2.storyblok.com/0x60/f/112543/256x256/3c32249a6e/barnard.png",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 0,
+      "2027": 1,
+      "2028": 1
+    }
+  },
+  {
+    "name": "Barrett, The Honors College",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 0,
+      "2026": 0,
+      "2027": 0,
+      "2028": 1
+    }
+  },
+  {
+    "name": "Baskin Engineering at UCSC",
+    "country": "United States",
+    "logo": "",
+    "graduatesByYear": {
+      "2024": 0,
+      "2025": 1,
+      "2026": 0,
+      "2027": 0,
+      "2028": 0
+    }
+  }
+];
