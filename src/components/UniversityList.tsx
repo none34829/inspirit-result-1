@@ -1,7 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { University, universities, UniversityCategory } from '../types/university';
+import { University, universities } from '../types/university';
+
+// Define the category type locally
+type UniversityCategory = 'all' | 'us_colleges' | 'non_us_colleges' | 'ivy_plus';
 
 // Define Ivy+ universities
 const IVY_PLUS = new Set([
