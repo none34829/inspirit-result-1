@@ -3,44 +3,18 @@ export interface University {
   country: string;
   logo: string;
   graduatesByYear: {
-    [key: number]: number;  // key is the year (2024-2028), value is number of graduates
+    [key: number]: number;  // key is the year (2026-2028), value is number of graduates
   };
 }
 
 export const universities: University[] = [
   {
-    "name": "Aalto University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
     "name": "Adrian College",
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Africa Nazarene University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -49,8 +23,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 0
@@ -61,8 +33,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -73,8 +43,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -85,23 +53,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 2,
       "2028": 1
-    }
-  },
-  {
-    "name": "Amsterdam University College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -109,8 +63,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -121,8 +73,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 7,
       "2027": 6,
       "2028": 2
@@ -133,8 +83,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 0,
       "2027": 3,
       "2028": 0
@@ -145,8 +93,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -157,8 +103,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/256x256/3c32249a6e/babson.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 1,
       "2028": 0
@@ -169,8 +113,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/256x256/3c32249a6e/barnard.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 1
@@ -181,23 +123,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Baskin Engineering at UCSC",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -205,8 +133,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -217,8 +143,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 0,
       "2028": 0
@@ -229,8 +153,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -241,23 +163,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Birla Institute Of Technology and Science, Pilani Dubai",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -265,8 +173,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -277,8 +183,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -289,8 +193,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -301,8 +203,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -313,8 +213,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 0,
       "2028": 2
@@ -325,8 +223,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -337,8 +233,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/2000x930/2c5d84220e/boston-university.png",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 4,
       "2026": 8,
       "2027": 10,
       "2028": 10
@@ -349,8 +243,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -361,8 +253,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -373,8 +263,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 2,
       "2028": 0
@@ -385,8 +273,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 3,
       "2027": 0,
       "2028": 0
@@ -397,8 +283,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/209x199/7c872473dd/brown.png",
     "graduatesByYear": {
-      "2024": 2,
-      "2025": 2,
       "2026": 8,
       "2027": 12,
       "2028": 7
@@ -409,8 +293,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -421,8 +303,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -433,8 +313,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -445,8 +323,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 12,
       "2027": 4,
       "2028": 3
@@ -457,8 +333,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 0
@@ -469,8 +343,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -481,21 +353,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "California State University-Sacramento",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -503,10 +361,8 @@ export const universities: University[] = [
   {
     "name": "Caltech",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/39/1/california-institute-of-technology-caltech-logo-png_seeklogo-397015.png?v=1957913605936163560",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 4,
       "2027": 6,
       "2028": 0
@@ -517,8 +373,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 0
@@ -529,22 +383,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Carlos III University of Madrid",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 2,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -553,8 +393,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/225x225/09f1f3ba55/carnegie.png",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 4,
       "2026": 15,
       "2027": 23,
       "2028": 10
@@ -565,8 +403,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -577,8 +413,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 1
@@ -589,8 +423,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 6
@@ -601,8 +433,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -613,8 +443,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 7,
       "2027": 6,
       "2028": 2
@@ -625,8 +453,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -637,8 +463,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -649,8 +473,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 2,
       "2028": 1
@@ -661,8 +483,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 1,
       "2026": 1,
       "2027": 0,
       "2028": 1
@@ -673,8 +493,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 1
@@ -685,8 +503,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -697,8 +513,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 2
@@ -709,35 +523,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "College of Natural Sciences, The University of Texas at Austin",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "College of the Holy Cross",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -745,21 +533,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Colorado State University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -769,8 +543,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -781,8 +553,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -793,8 +563,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/820x530/c2b5ed5878/columbia.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 5,
       "2026": 11,
       "2027": 10,
       "2028": 13
@@ -805,22 +573,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Concordia University Irvine",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -829,8 +583,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -841,8 +593,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/filters:format(webp)/f/112543/256x256/3c32249a6e/cornell.png",
     "graduatesByYear": {
-      "2024": 5,
-      "2025": 8,
       "2026": 29,
       "2027": 33,
       "2028": 25
@@ -853,8 +603,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -865,8 +613,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -877,22 +623,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/200x200/3f26471d7f/dartmouth.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 3,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Data Analytics Intern",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -901,22 +633,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "DePaul University School of Music",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -925,8 +643,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 3,
       "2027": 0,
       "2028": 0
@@ -937,33 +653,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Diablo Valley College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Dr.SR University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -973,23 +663,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 1,
       "2028": 1
-    }
-  },
-  {
-    "name": "Drexel University College of Computing & Informatics",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -997,8 +673,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/1200x1478/74f315b417/duke.png",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 1,
       "2026": 14,
       "2027": 21,
       "2028": 11
@@ -1009,8 +683,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 1,
       "2028": 1
@@ -1021,21 +693,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "EPFL",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -1045,8 +703,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1057,8 +713,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -1069,8 +723,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1081,8 +733,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 1,
       "2028": 1
@@ -1093,8 +743,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 4,
       "2027": 3,
       "2028": 2
@@ -1105,8 +753,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 0,
       "2028": 0
@@ -1117,8 +763,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1129,22 +773,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Federico Santa Maria Technical University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -1153,8 +783,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -1165,8 +793,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1177,23 +803,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 3,
       "2028": 1
-    }
-  },
-  {
-    "name": "Free University of Berlin",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -1201,8 +813,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 2,
       "2027": 4,
       "2028": 2
@@ -1213,8 +823,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -1225,8 +833,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 11,
       "2026": 16,
       "2027": 5,
       "2028": 3
@@ -1237,8 +843,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -1249,8 +853,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 1
@@ -1261,23 +863,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Grand Canyon University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -1285,8 +873,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 1
@@ -1297,8 +883,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/3840x2160/97b777b67b/harvard-symbol.png",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 1,
       "2026": 6,
       "2027": 16,
       "2028": 5
@@ -1309,8 +893,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 0
@@ -1321,8 +903,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1333,33 +913,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Hopkins School",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Horace Mann School",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -1369,8 +923,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 1,
       "2028": 1
@@ -1381,8 +933,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1393,8 +943,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 3
@@ -1405,8 +953,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -1417,8 +963,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1429,8 +973,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 7,
       "2028": 2
@@ -1441,22 +983,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 5,
       "2027": 3,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Indira Gandhi National Open University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -1465,8 +993,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -1477,8 +1003,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -1489,23 +1013,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 1
-    }
-  },
-  {
-    "name": "Istanbul Technical University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -1513,8 +1023,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 3,
       "2027": 0,
       "2028": 0
@@ -1525,22 +1033,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Jerome Fisher M&T Program",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -1549,21 +1043,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Kansas City University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -1573,8 +1053,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1585,21 +1063,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Kettering University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -1609,21 +1073,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Kingston University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -1633,8 +1083,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -1645,22 +1093,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Krea University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -1669,8 +1103,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 0,
       "2028": 0
@@ -1681,8 +1113,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 3,
       "2027": 2,
       "2028": 2
@@ -1693,8 +1123,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -1705,22 +1133,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Loyola Jesuit College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -1729,8 +1143,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 1,
       "2028": 0
@@ -1741,8 +1153,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1753,8 +1163,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1765,8 +1173,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 3,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -1777,23 +1183,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Management Development Institute Murshidabad",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -1801,8 +1193,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1813,8 +1203,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1825,8 +1213,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -1835,10 +1221,8 @@ export const universities: University[] = [
   {
     "name": "Massachusetts Institute of Technology",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/M/MIT-logo-C802537651-seeklogo.com.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 8,
       "2027": 11,
       "2028": 7
@@ -1849,8 +1233,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 3,
       "2027": 3,
       "2028": 5
@@ -1861,8 +1243,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1873,8 +1253,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 1,
       "2028": 1
@@ -1885,8 +1263,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1897,8 +1273,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 2,
       "2028": 0
@@ -1909,35 +1283,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 5,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Milton Academy",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Monash University Malaysia",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -1945,8 +1293,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1957,8 +1303,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -1969,8 +1313,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -1981,8 +1323,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 3,
       "2028": 2
@@ -1993,21 +1333,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Nagoya University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -2017,8 +1343,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 1,
       "2028": 3
@@ -2029,8 +1353,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 1
@@ -2041,8 +1363,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 1
@@ -2053,8 +1373,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2065,8 +1383,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/203x197/2fdf345a94/nyu.png",
     "graduatesByYear": {
-      "2024": 2,
-      "2025": 4,
       "2026": 11,
       "2027": 12,
       "2028": 7
@@ -2077,8 +1393,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -2089,23 +1403,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 1
-    }
-  },
-  {
-    "name": "Newcastle University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -2113,8 +1413,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 2,
       "2027": 5,
       "2028": 3
@@ -2125,8 +1423,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 5,
       "2026": 27,
       "2027": 43,
       "2028": 13
@@ -2137,8 +1433,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/1200x1200/1dfbb3316a/northwestern.png",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 4,
       "2026": 13,
       "2027": 13,
       "2028": 5
@@ -2149,8 +1443,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2161,8 +1453,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2173,8 +1463,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -2185,8 +1473,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 0,
       "2028": 1
@@ -2197,8 +1483,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2209,8 +1493,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2221,8 +1503,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 0
@@ -2233,8 +1513,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 1,
       "2026": 7,
       "2027": 5,
       "2028": 1
@@ -2245,8 +1523,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 1
@@ -2257,22 +1533,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Phillips Academy",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -2281,22 +1543,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 2,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Presidency University Bangalore",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -2305,8 +1553,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/750x422/4dcfa2918d/princeton.png",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 2,
       "2026": 6,
       "2027": 9,
       "2028": 5
@@ -2317,8 +1563,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 6,
       "2026": 35,
       "2027": 50,
       "2028": 31
@@ -2329,35 +1573,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 8,
       "2028": 4
-    }
-  },
-  {
-    "name": "Purdue University Daniels School of Business",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Queen Mary University of London",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -2365,23 +1583,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 1,
       "2027": 2,
       "2028": 2
-    }
-  },
-  {
-    "name": "Radboud University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -2389,8 +1593,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 3
@@ -2401,8 +1603,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/162x189/5199ae2aca/rice.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 10,
       "2027": 10,
       "2028": 5
@@ -2413,22 +1613,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Rio Salado College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -2437,8 +1623,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 3,
       "2027": 2,
       "2028": 1
@@ -2449,8 +1633,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2461,8 +1643,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -2473,8 +1653,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2485,8 +1663,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 0
@@ -2497,8 +1673,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -2509,8 +1683,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 6,
       "2028": 1
@@ -2521,8 +1693,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -2533,8 +1703,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -2545,8 +1713,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2557,35 +1723,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 2,
-      "2025": 5,
       "2026": 12,
       "2027": 10,
       "2028": 4
-    }
-  },
-  {
-    "name": "Rutgers University\u2013New Brunswick: Honors College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "SOS Hermann Gmeiner International College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -2593,8 +1733,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2605,8 +1743,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -2617,8 +1753,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -2629,8 +1763,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 4,
       "2027": 3,
       "2028": 1
@@ -2641,23 +1773,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 4,
       "2026": 6,
       "2027": 9,
       "2028": 6
-    }
-  },
-  {
-    "name": "Sapienza University of Rome",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -2665,8 +1783,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2677,8 +1793,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2689,35 +1803,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 1,
       "2028": 1
-    }
-  },
-  {
-    "name": "Shanghai Jiao Tong University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Skidmore College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -2725,21 +1813,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Sonoma State University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -2749,23 +1823,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 1
-    }
-  },
-  {
-    "name": "St. George's University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -2773,8 +1833,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/filters:format(webp)/f/112543/394x589/7de8201fea/su_new_blockstree_2color_darkbgrd.png",
     "graduatesByYear": {
-      "2024": 3,
-      "2025": 6,
       "2026": 12,
       "2027": 14,
       "2028": 11
@@ -2785,8 +1843,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2797,8 +1853,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -2809,8 +1863,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2821,8 +1873,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 3,
       "2027": 2,
       "2028": 0
@@ -2833,8 +1883,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 5,
       "2027": 3,
       "2028": 1
@@ -2845,8 +1893,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -2857,8 +1903,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -2869,8 +1913,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 0
@@ -2881,23 +1923,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 2,
       "2028": 1
-    }
-  },
-  {
-    "name": "Technical University of Berlin",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -2905,8 +1933,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2917,8 +1943,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 0
@@ -2929,8 +1953,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -2941,8 +1963,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -2953,8 +1973,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 2,
-      "2025": 1,
       "2026": 3,
       "2027": 7,
       "2028": 3
@@ -2965,8 +1983,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -2977,8 +1993,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -2989,22 +2003,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "The Duke of Edinburgh's International Award",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -3013,8 +2013,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 3,
       "2028": 1
@@ -3025,21 +2023,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "The Harker School",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -3049,8 +2033,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3059,25 +2041,11 @@ export const universities: University[] = [
   {
     "name": "The Johns Hopkins University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/J/jhu-johns-hopkins-university-logo-0AD931982D-seeklogo.com.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 3,
       "2027": 10,
       "2028": 5
-    }
-  },
-  {
-    "name": "The Knowledge Society (TKS)",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -3085,8 +2053,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 0,
       "2028": 0
@@ -3097,8 +2063,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 3,
       "2026": 3,
       "2027": 2,
       "2028": 6
@@ -3109,8 +2073,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 2,
       "2028": 0
@@ -3121,8 +2083,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -3133,8 +2093,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 2,
-      "2025": 0,
       "2026": 7,
       "2027": 3,
       "2028": 7
@@ -3145,8 +2103,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3157,8 +2113,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 3
@@ -3169,8 +2123,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 3,
       "2027": 4,
       "2028": 3
@@ -3181,8 +2133,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3193,8 +2143,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -3205,8 +2153,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 3
@@ -3217,23 +2163,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "The University of Sheffield",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -3241,8 +2173,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3253,8 +2183,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 4,
       "2026": 22,
       "2027": 17,
       "2028": 17
@@ -3265,8 +2193,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 4,
       "2027": 2,
       "2028": 6
@@ -3277,8 +2203,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3289,8 +2213,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 3,
       "2028": 1
@@ -3301,23 +2223,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Tilburg University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -3325,8 +2233,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3337,8 +2243,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 1
@@ -3349,8 +2253,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -3361,8 +2263,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 14,
       "2027": 8,
       "2028": 4
@@ -3373,8 +2273,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 0
@@ -3385,8 +2283,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -3397,8 +2293,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 2
@@ -3409,8 +2303,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 2,
       "2028": 0
@@ -3421,8 +2313,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -3433,8 +2323,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -3445,8 +2333,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -3457,8 +2343,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 3,
       "2026": 10,
       "2027": 12,
       "2028": 7
@@ -3469,8 +2353,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -3481,8 +2363,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 2,
       "2027": 3,
       "2028": 1
@@ -3493,8 +2373,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 8,
       "2026": 8,
       "2027": 25,
       "2028": 9
@@ -3505,8 +2383,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 0
@@ -3517,23 +2393,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 8,
       "2027": 4,
       "2028": 5
-    }
-  },
-  {
-    "name": "UCL",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -3541,8 +2403,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3553,8 +2413,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 3,
-      "2025": 4,
       "2026": 17,
       "2027": 22,
       "2028": 13
@@ -3565,8 +2423,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3577,8 +2433,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 4,
       "2027": 3,
       "2028": 4
@@ -3589,21 +2443,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "UNSW",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -3613,23 +2453,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 1
-    }
-  },
-  {
-    "name": "UW-Madison Computer Sciences",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -3637,8 +2463,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3649,21 +2473,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "United World College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -3673,8 +2483,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3685,35 +2493,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Universitat Polit\u00e8cnica de Catalunya",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University College Dublin",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -3721,22 +2503,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University POLITEHNICA of Bucharest",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -3745,8 +2513,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 1,
       "2027": 3,
       "2028": 0
@@ -3757,8 +2523,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -3769,8 +2533,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -3781,8 +2543,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -3793,23 +2553,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 3,
       "2027": 0,
       "2028": 2
-    }
-  },
-  {
-    "name": "University of Birmingham Dubai",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -3817,22 +2563,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of British Columbia",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -3841,8 +2573,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 1,
       "2026": 1,
       "2027": 4,
       "2028": 0
@@ -3853,8 +2583,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 2,
       "2028": 1
@@ -3865,8 +2593,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 4,
-      "2025": 12,
       "2026": 51,
       "2027": 40,
       "2028": 33
@@ -3877,8 +2603,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 1
@@ -3889,8 +2613,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 7,
       "2026": 12,
       "2027": 10,
       "2028": 3
@@ -3901,8 +2623,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 1,
       "2026": 6,
       "2027": 5,
       "2028": 0
@@ -3913,8 +2633,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 2,
       "2026": 5,
       "2027": 6,
       "2028": 2
@@ -3925,8 +2643,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 4,
       "2028": 0
@@ -3937,8 +2653,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 6,
       "2027": 2,
       "2028": 2
@@ -3949,8 +2663,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -3961,8 +2673,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 3,
       "2028": 0
@@ -3973,8 +2683,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 5,
       "2026": 11,
       "2027": 16,
       "2028": 0
@@ -3985,8 +2693,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 3,
       "2027": 5,
       "2028": 0
@@ -3997,8 +2703,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 2,
       "2028": 0
@@ -4009,8 +2713,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/filters:format(webp)/f/112543/1200x1523/cc92fcdba3/1200px-university_of_chicago_shield-svg.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 4,
       "2026": 8,
       "2027": 16,
       "2028": 6
@@ -4021,8 +2723,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 2,
       "2027": 0,
       "2028": 0
@@ -4033,8 +2733,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -4045,8 +2743,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 1
@@ -4057,8 +2753,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 0,
       "2027": 3,
       "2028": 0
@@ -4069,22 +2763,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of Delaware",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -4093,22 +2773,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of Development",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -4117,8 +2783,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4129,8 +2793,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 1,
       "2027": 2,
       "2028": 0
@@ -4141,8 +2803,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 4,
       "2027": 5,
       "2028": 5
@@ -4153,8 +2813,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 0
@@ -4165,8 +2823,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 3,
       "2027": 0,
       "2028": 0
@@ -4177,8 +2833,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4189,8 +2843,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4201,8 +2853,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4213,8 +2863,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4225,23 +2873,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "University of Illinois Chicago",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -4249,8 +2883,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 6,
-      "2025": 19,
       "2026": 51,
       "2027": 34,
       "2028": 41
@@ -4261,22 +2893,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of Leicester",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -4285,8 +2903,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -4297,8 +2913,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4309,8 +2923,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 4,
-      "2025": 8,
       "2026": 26,
       "2027": 23,
       "2028": 13
@@ -4321,8 +2933,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4333,8 +2943,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4345,8 +2953,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 1
@@ -4357,8 +2963,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4369,8 +2973,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 3,
       "2026": 3,
       "2027": 10,
       "2028": 1
@@ -4381,8 +2983,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4393,8 +2993,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 2,
       "2027": 1,
       "2028": 0
@@ -4405,8 +3003,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 0
@@ -4417,8 +3013,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4429,8 +3023,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 3,
       "2026": 17,
       "2027": 14,
       "2028": 9
@@ -4441,8 +3033,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4453,8 +3043,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 2
@@ -4465,8 +3053,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 2,
-      "2025": 2,
       "2026": 8,
       "2027": 12,
       "2028": 0
@@ -4477,8 +3063,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 1,
       "2028": 2
@@ -4489,8 +3073,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 1,
       "2028": 1
@@ -4501,8 +3083,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 2,
       "2028": 1
@@ -4513,8 +3093,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 0,
       "2028": 0
@@ -4525,8 +3103,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4537,21 +3113,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of Nebraska-Lincoln",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -4561,23 +3123,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "University of North Carolina School of the Arts",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -4585,8 +3133,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 7,
       "2028": 3
@@ -4597,22 +3143,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of North Carolina at Greensboro",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -4621,8 +3153,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 5,
       "2028": 1
@@ -4633,8 +3163,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4645,8 +3173,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4657,8 +3183,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 1,
       "2028": 0
@@ -4669,8 +3193,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4681,8 +3203,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4693,8 +3213,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 2,
       "2026": 0,
       "2027": 3,
       "2028": 1
@@ -4705,8 +3223,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/1760x2000/8897dec29f/universityofpennsylvania.png",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 2,
       "2026": 15,
       "2027": 25,
       "2028": 12
@@ -4717,8 +3233,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 4,
       "2028": 2
@@ -4729,8 +3243,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4741,8 +3253,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4753,8 +3263,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 1
@@ -4765,8 +3273,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 2,
       "2026": 3,
       "2027": 1,
       "2028": 2
@@ -4777,8 +3283,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4789,8 +3293,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 3,
       "2028": 0
@@ -4801,21 +3303,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of South Florida",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -4825,8 +3313,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4837,8 +3323,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 3,
       "2026": 15,
       "2027": 21,
       "2028": 8
@@ -4849,22 +3333,8 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of Sussex",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
       "2028": 0
     }
   },
@@ -4873,8 +3343,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -4885,8 +3353,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 2,
-      "2025": 2,
       "2026": 8,
       "2027": 13,
       "2028": 5
@@ -4897,8 +3363,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4909,8 +3373,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4921,8 +3383,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 1,
       "2028": 0
@@ -4933,8 +3393,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4945,8 +3403,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -4957,8 +3413,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 1,
       "2028": 0
@@ -4969,8 +3423,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -4981,8 +3433,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 7,
       "2027": 9,
       "2028": 5
@@ -4993,8 +3443,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
       "2026": 3,
       "2027": 1,
       "2028": 0
@@ -5005,23 +3453,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 8,
       "2026": 20,
       "2027": 15,
       "2028": 7
-    }
-  },
-  {
-    "name": "University of Washington Bothell",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -5029,8 +3463,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 3,
       "2028": 1
@@ -5041,8 +3473,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 0
@@ -5053,8 +3483,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 11,
       "2028": 13
@@ -5065,8 +3493,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
       "2027": 1,
       "2028": 0
@@ -5077,8 +3503,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -5089,47 +3513,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 1,
-      "2025": 15,
       "2026": 24,
       "2027": 12,
       "2028": 13
-    }
-  },
-  {
-    "name": "University of Wisconsin-Milwaukee",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of the Cumberlands",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of the Pacific",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -5137,21 +3523,7 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 2,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Universit\u00e9 Toulouse - Jean Jaur\u00e8s",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 1,
-      "2025": 0,
-      "2026": 0,
       "2027": 0,
       "2028": 0
     }
@@ -5161,8 +3533,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -5173,23 +3543,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/233x195/aae7423d49/vanderbilt.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 7,
       "2027": 8,
       "2028": 5
-    }
-  },
-  {
-    "name": "Vassar College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -5197,8 +3553,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -5209,8 +3563,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -5221,8 +3573,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 2,
       "2028": 0
@@ -5233,8 +3583,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 3,
       "2027": 6,
       "2028": 1
@@ -5245,8 +3593,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -5257,23 +3603,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Vrije Universiteit Amsterdam (VU Amsterdam)",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -5281,8 +3613,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -5293,8 +3623,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -5305,8 +3633,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -5317,8 +3643,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -5329,8 +3653,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -5341,8 +3663,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/1200x1200/73c26a8fc8/washingtonu.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 8,
       "2027": 8,
       "2028": 6
@@ -5353,8 +3673,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -5365,23 +3683,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 1
-    }
-  },
-  {
-    "name": "Wentworth Institute of Technology",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -5389,23 +3693,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 3,
       "2027": 3,
       "2028": 2
-    }
-  },
-  {
-    "name": "West Valley College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
-      "2026": 0,
-      "2027": 0,
-      "2028": 0
     }
   },
   {
@@ -5413,8 +3703,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 2,
       "2028": 2
@@ -5425,8 +3713,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -5437,8 +3723,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 1,
       "2027": 0,
       "2028": 0
@@ -5449,8 +3733,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -5461,8 +3743,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 0,
       "2028": 1
@@ -5473,8 +3753,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 0,
       "2026": 0,
       "2027": 1,
       "2028": 0
@@ -5485,8 +3763,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 1,
       "2026": 2,
       "2027": 3,
       "2028": 0
@@ -5497,8 +3773,6 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/1200x1260/853f8e7976/yale.png",
     "graduatesByYear": {
-      "2024": 0,
-      "2025": 2,
       "2026": 9,
       "2027": 14,
       "2028": 4
@@ -5507,12 +3781,10 @@ export const universities: University[] = [
 ];
 
 // Statistics:
-// Total universities: 458
-// Total students: 3078
+// Total universities: 377
+// Total students: 2654
 
 // Students by year:
-//   2024: 100 students
-//   2025: 324 students
 //   2026: 945 students
 //   2027: 1087 students
 //   2028: 622 students

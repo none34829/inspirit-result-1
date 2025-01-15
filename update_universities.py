@@ -13,7 +13,7 @@ df = pd.read_excel('Inspirit Students at colleges.xlsx')
 # Clean the data
 df = df.dropna(subset=['University Name LinkedIn', 'University End Year'])
 df['University End Year'] = pd.to_numeric(df['University End Year'], errors='coerce')
-df = df[df['University End Year'].between(2024, 2028)]
+df = df[df['University End Year'].between(2026, 2028)]
 
 # Count students by university and year
 university_counts = defaultdict(lambda: defaultdict(int))
@@ -35,8 +35,6 @@ for uni_name, year_counts in sorted(university_counts.items()):
         'country': country_map[uni_name],
         'logo': '',  # Will be filled in later
         'graduatesByYear': {
-            2024: year_counts.get(2024, 0),
-            2025: year_counts.get(2025, 0),
             2026: year_counts.get(2026, 0),
             2027: year_counts.get(2027, 0),
             2028: year_counts.get(2028, 0)
@@ -76,7 +74,7 @@ ts_code = """export interface University {
   country: string;
   logo: string;
   graduatesByYear: {
-    [key: number]: number;  // key is the year (2024-2028), value is number of graduates
+    [key: number]: number;  // key is the year (2026-2028), value is number of graduates
   };
 }
 

@@ -21,9 +21,11 @@ const IVY_PLUS = new Set([
   'Stanford University',
   'Massachusetts Institute of Technology',
   'California Institute of Technology',
+  'Caltech',
   'Carnegie Mellon University',
   'University of Chicago',
   'Johns Hopkins University',
+  'The Johns Hopkins University',
   'Northwestern University',
   'Duke University',
   'Rice University',
@@ -70,6 +72,18 @@ const UniversityList = () => {
       );
     }
 
+    // Sort universities: Ivy+ first, then alphabetically
+    filtered = filtered.sort((a, b) => {
+      const aIsIvy = IVY_PLUS.has(a.name);
+      const bIsIvy = IVY_PLUS.has(b.name);
+      
+      if (aIsIvy && !bIsIvy) return -1;
+      if (!aIsIvy && bIsIvy) return 1;
+      
+      // If both are Ivy+ or both are not Ivy+, sort alphabetically
+      return a.name.localeCompare(b.name);
+    });
+
     console.log('Filtered universities length:', filtered.length);
     setAllUniversities(filtered);
     setVisibleCount(20); // Reset visible count when filters change
@@ -103,7 +117,7 @@ const UniversityList = () => {
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-[3.5rem] leading-[1.15] tracking-tight font-[Fat Frank] text-black max-w-[18ch] mx-auto">Where Inspirit AI Alumni Continue Their Journey</h1>
+          <h1 className="text-[3.5rem] leading-[1.15] tracking-tight font-['Trebuchet MS'] font-black text-black max-w-[18ch] mx-auto">Where Inspirit AI Alumni Continue Their Journey</h1>
           <p className="text-[#000000] text-lg">Charting the paths of excellence across global universities</p>
         </div>
 
@@ -136,8 +150,6 @@ const UniversityList = () => {
               onChange={(e) => setClassYearFilter(e.target.value)}
             >
               <option value="">Filter by Class of</option>
-              <option value="2024">Class of 2024</option>
-              <option value="2025">Class of 2025</option>
               <option value="2026">Class of 2026</option>
               <option value="2027">Class of 2027</option>
               <option value="2028">Class of 2028</option>
@@ -153,7 +165,7 @@ const UniversityList = () => {
         {/* Stats Section */}
         <div className="text-center mb-16">
           <p className="text-[#000000] text-lg">
-            Showing {visibleUniversities.length} of {allUniversities.length} universities with {totalGraduates} graduates
+            Showing {totalGraduates} graduates
             {classYearFilter ? ` from Class of ${classYearFilter}` : ' across all years'}
             {categoryFilter !== 'all' ? ` in ${getCategoryDisplayName(categoryFilter)}` : ''}
           </p>
@@ -186,7 +198,7 @@ const UniversityList = () => {
                   <h3 className="text-xl font-semibold text-white mb-2">{university.name}</h3>
                   
                   {/* Graduate Count */}
-                  <p className="text-[#565889]">
+                  <p className="text-white">
                     {getGraduates(university)} graduate{getGraduates(university) !== 1 ? 's' : ''}
                   </p>
                 </div>
