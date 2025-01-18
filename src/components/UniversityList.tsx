@@ -154,9 +154,9 @@ const UniversityList = () => {
               onChange={(e) => setClassYearFilter(e.target.value)}
             >
               <option value="">Filter by Class of</option>
-              <option value="2026">Class of 2026</option>
+              <option value="2026">Class of 2028</option>
               <option value="2027">Class of 2027</option>
-              <option value="2028">Class of 2028</option>
+              <option value="2028">Class of 2026</option>
             </select>
             <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-[#565889]">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
