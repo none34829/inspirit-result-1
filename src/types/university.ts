@@ -131,7 +131,7 @@ export const universities: University[] = [
   {
     "name": "Baylor University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://logos-world.net/wp-content/uploads/2022/01/Baylor-University-Logo.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -141,7 +141,7 @@ export const universities: University[] = [
   {
     "name": "Bentley University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://marvel-b1-cdn.bc0a.com/f00000000299134/d2f5upgbvkx8pz.cloudfront.net/sites/default/files/inline-images/Bentley_Logo_Shield_Only_Blue.jpg?VersionId=NLkoz0Mrbee.rdXjIE1ozFjjoMIsQzk8",
     "graduatesByYear": {
       "2026": 2,
       "2027": 0,
