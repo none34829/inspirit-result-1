@@ -1759,16 +1759,6 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "USC Jimmy Iovine and Andre Young Academy",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 1,
-      "2028": 1
-    }
-  },
-  {
     "name": "United States Air Force Academy",
     "country": "United States",
     "logo": "",
@@ -2601,11 +2591,11 @@ export const universities: University[] = [
   {
     "name": "University of Southern California",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-southern-california-logo-C35D3F2C09-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 15,
-      "2027": 21,
-      "2028": 8
+      "2027": 22,
+      "2028": 9
     }
   },
   {
