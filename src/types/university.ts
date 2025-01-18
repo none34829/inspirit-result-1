@@ -75,7 +75,7 @@ export const universities: University[] = [
     "graduatesByYear": {
       "2026": 7,
       "2027": 6,
-      "2028": 2
+      "2028": 3
     }
   },
   {
@@ -119,16 +119,6 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "Barrett, The Honors College",
-    "country": "United States",
-    "logo": "https://scontent.fdel48-1.fna.fbcdn.net/v/t39.30808-6/327132858_1234330040490626_1886796174316944986_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Zwjfhat9TZMQ7kNvgFZmde_&_nc_zt=23&_nc_ht=scontent.fdel48-1.fna&_nc_gid=AOOZCrOZJaflu0o033a327M&oh=00_AYCUp6p75Rg-WWZQiB1mEX-z5TykzxeyN6CR1JiXTZZbUg&oe=6791912E",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 1
-    }
-  },
-  {
     "name": "Baylor University",
     "country": "United States",
     "logo": "https://logos-world.net/wp-content/uploads/2022/01/Baylor-University-Logo.png",
@@ -150,8 +140,8 @@ export const universities: University[] = [
   },
   {
     "name": "Bilkent University",
-    "country": "United States",
-    "logo": "",
+    "country": "Türkiye",
+    "logo": "https://seeklogo.com/images/B/bilkent-universitesi-logo-DDB94EAA5F-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -161,7 +151,7 @@ export const universities: University[] = [
   {
     "name": "Binghamton University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0_lLFZff1GiNbl72-gyOj94_uCdJlaByW9YOKacc&usqp=CAE&s",
     "graduatesByYear": {
       "2026": 2,
       "2027": 0,
@@ -170,8 +160,8 @@ export const universities: University[] = [
   },
   {
     "name": "Birla Institute of Technology and Science, Pilani",
-    "country": "United States",
-    "logo": "",
+    "country": "India",
+    "logo": "https://www.bits-pilani.ac.in/wp-content/uploads/bits-pillani-logo.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -180,8 +170,8 @@ export const universities: University[] = [
   },
   {
     "name": "Bocconi University",
-    "country": "United States",
-    "logo": "",
+    "country": "Italy",
+    "logo": "https://population-europe.eu/files/styles/pe_content_xl/public/media-images/bocconi.png?itok=4klR06Kk",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -191,17 +181,7 @@ export const universities: University[] = [
   {
     "name": "Borough of Manhattan Community College",
     "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Boston Colleg",
-    "country": "United States",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShI-sWoe0RCOifszU-QOtSHILlZsfEPUVOuuDpz0A&usqp=CAE&s",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -211,21 +191,11 @@ export const universities: University[] = [
   {
     "name": "Boston College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/B/boston-college-eagles-logo-1EC79BE5C6-seeklogo.com.png",
     "graduatesByYear": {
-      "2026": 1,
-      "2027": 0,
-      "2028": 2
-    }
-  },
-  {
-    "name": "Boston College Carroll School of Management",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
+      "2026": 2,
       "2027": 1,
-      "2028": 0
+      "2028": 2
     }
   },
   {
@@ -234,24 +204,14 @@ export const universities: University[] = [
     "logo": "https://img2.storyblok.com/0x60/f/112543/2000x930/2c5d84220e/boston-university.png",
     "graduatesByYear": {
       "2026": 8,
-      "2027": 10,
+      "2027": 11,
       "2028": 10
-    }
-  },
-  {
-    "name": "Boston University College of Engineering",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 1,
-      "2028": 0
     }
   },
   {
     "name": "Bowdoin College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/45/1/bowdoin-athletics-logo-png_seeklogo-451559.png?v=1957662054119921704",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -261,7 +221,7 @@ export const universities: University[] = [
   {
     "name": "Brandeis University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/44/2/brandeis-university-logo-png_seeklogo-440750.png?v=1957812888389756272",
     "graduatesByYear": {
       "2026": 1,
       "2027": 2,
@@ -271,7 +231,7 @@ export const universities: University[] = [
   {
     "name": "Brigham Young University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/B/byu-brigham-young-university-logo-5FA8255E87-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 3,
       "2027": 0,
@@ -291,7 +251,7 @@ export const universities: University[] = [
   {
     "name": "Cal Poly Humboldt",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/C/cal-poly-humboldt-lumberjacks-logo-BF87128DA1-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -301,7 +261,7 @@ export const universities: University[] = [
   {
     "name": "California Baptist University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/52/2/california-baptist-university-logo-png_seeklogo-529115.png?v=1957856498976257528",
     "graduatesByYear": {
       "2026": 0,
       "2027": 0,
@@ -311,19 +271,9 @@ export const universities: University[] = [
   {
     "name": "California Polytechnic State University, San Luis Obispo",
     "country": "United States",
-    "logo": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/d/d9/CalPoly_Seal.svg",
     "graduatesByYear": {
-      "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "California Polytechnic State University-San Luis Obispo",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 12,
+      "2026": 13,
       "2027": 4,
       "2028": 3
     }
@@ -331,7 +281,7 @@ export const universities: University[] = [
   {
     "name": "California State Polytechnic University-Pomona",
     "country": "United States",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA7y1zsj0dCDI6ipIIba8RKBNBghJg_gH6TIJ0TwQ&usqp=CAE&s",
     "graduatesByYear": {
       "2026": 1,
       "2027": 1,
@@ -341,7 +291,7 @@ export const universities: University[] = [
   {
     "name": "California State University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Seal_of_the_California_State_University.svg",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -351,7 +301,7 @@ export const universities: University[] = [
   {
     "name": "California State University, Fresno",
     "country": "United States",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjTPSHlqbR3L1rgpoOLD-ZiKGCeMWrjCajVxAgQRY&usqp=CAE&s",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -371,7 +321,7 @@ export const universities: University[] = [
   {
     "name": "Carleton College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/51/2/carleton-college-logo-png_seeklogo-510927.png?v=1957770300430604888",
     "graduatesByYear": {
       "2026": 0,
       "2027": 2,
@@ -380,8 +330,8 @@ export const universities: University[] = [
   },
   {
     "name": "Carleton University",
-    "country": "United States",
-    "logo": "",
+    "country": "Canada",
+    "logo": "https://images.seeklogo.com/logo-png/34/2/carleton-university-logo-png_seeklogo-347011.png?v=1957916249599747968",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -391,57 +341,17 @@ export const universities: University[] = [
   {
     "name": "Carnegie Mellon University",
     "country": "United States",
-    "logo": "https://img2.storyblok.com/0x60/f/112543/225x225/09f1f3ba55/carnegie.png",
+    "logo": "https://seeklogo.com/images/C/carnegie-mellon-university-logo-389DF9E4D6-seeklogo.com.png",
     "graduatesByYear": {
-      "2026": 15,
-      "2027": 23,
-      "2028": 10
-    }
-  },
-  {
-    "name": "Carnegie Mellon University - Tepper School of Business",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 1
-    }
-  },
-  {
-    "name": "Carnegie Mellon University Mellon College of Science",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 1,
-      "2027": 0,
-      "2028": 1
-    }
-  },
-  {
-    "name": "Carnegie Mellon University School of Computer Science",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 1,
-      "2027": 1,
-      "2028": 6
-    }
-  },
-  {
-    "name": "Carnegie Mellon University's College of Engineering",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 1,
-      "2027": 0,
-      "2028": 0
+      "2026": 18,
+      "2027": 24,
+      "2028": 18
     }
   },
   {
     "name": "Case Western Reserve University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/C/case-western-reserve-university-logo-04E1FDCD5C-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 7,
       "2027": 6,
@@ -451,7 +361,7 @@ export const universities: University[] = [
   {
     "name": "Champlain College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/b/b5/Champlain_College_seal.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -461,7 +371,7 @@ export const universities: University[] = [
   {
     "name": "Chapman University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/48/2/chapman-university-logo-png_seeklogo-487747.png?v=1957661700952947760",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -470,8 +380,8 @@ export const universities: University[] = [
   },
   {
     "name": "City, University of London",
-    "country": "United States",
-    "logo": "",
+    "country": "England",
+    "logo": "https://seeklogo.com/images/C/city-university-of-london-logo-63A9D5FB68-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 2,
@@ -481,7 +391,7 @@ export const universities: University[] = [
   {
     "name": "Clemson University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/28/2/clemson-university-logo-png_seeklogo-280726.png?v=1957909766223770496",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -489,19 +399,9 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "Cockrell School of Engineering, The University of Texas at Austin",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 1,
-      "2027": 1,
-      "2028": 1
-    }
-  },
-  {
     "name": "Colby College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/49/2/colby-college-logo-png_seeklogo-495561.png?v=1957714878446517800",
     "graduatesByYear": {
       "2026": 0,
       "2027": 0,
@@ -511,7 +411,7 @@ export const universities: University[] = [
   {
     "name": "Colgate University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/C/colgate-university-logo-BF43A8F835-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 0,
@@ -519,42 +419,12 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "College of Engineering \u2013 Oregon State University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 1
-    }
-  },
-  {
     "name": "Colorado School of Mines",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/49/2/colorado-school-of-mines-logo-png_seeklogo-493748.png?v=1957827530997566088",
     "graduatesByYear": {
       "2026": 2,
       "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Columbia College, Columbia University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Columbia Engineering",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 1,
       "2028": 0
     }
   },
@@ -563,27 +433,17 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "https://img2.storyblok.com/0x60/f/112543/820x530/c2b5ed5878/columbia.png",
     "graduatesByYear": {
-      "2026": 11,
-      "2027": 10,
+      "2026": 12,
+      "2027": 11,
       "2028": 13
     }
   },
   {
     "name": "Comillas Pontifical University",
-    "country": "United States",
-    "logo": "",
+    "country": "Spain",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVI68-UoyKeQiuS1fxLncvdY5LiuEXzPdSLA&s",
     "graduatesByYear": {
       "2026": 1,
-      "2027": 1,
-      "2028": 0
-    }
-  },
-  {
-    "name": "Cornell Engineering",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
       "2027": 1,
       "2028": 0
     }
@@ -594,24 +454,14 @@ export const universities: University[] = [
     "logo": "https://img2.storyblok.com/0x60/filters:format(webp)/f/112543/256x256/3c32249a6e/cornell.png",
     "graduatesByYear": {
       "2026": 29,
-      "2027": 33,
+      "2027": 35,
       "2028": 25
     }
   },
   {
-    "name": "Cornerll University",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 1,
-      "2028": 0
-    }
-  },
-  {
     "name": "Dalhousie University",
-    "country": "United States",
-    "logo": "",
+    "country": "Canada",
+    "logo": "https://seeklogo.com/images/D/dalhousie-university-logo-770F1DEE35-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -1475,7 +1325,7 @@ export const universities: University[] = [
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
-      "2028": 1
+      "2028": 2
     }
   },
   {
@@ -1780,16 +1630,6 @@ export const universities: University[] = [
   },
   {
     "name": "Savannah College",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 1,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "School of Information - The University of Texas at Austin",
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
@@ -2183,9 +2023,9 @@ export const universities: University[] = [
     "country": "United States",
     "logo": "",
     "graduatesByYear": {
-      "2026": 22,
-      "2027": 17,
-      "2028": 17
+      "2026": 24,
+      "2027": 18,
+      "2028": 18
     }
   },
   {
