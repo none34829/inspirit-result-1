@@ -117,13 +117,13 @@ const UniversityList = () => {
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="text-center mb-16 max-w-full px-4 pb-4">
-  <h1 className="text-2xl md:text-3xl lg:text-5xl leading-relaxed tracking-tight font-['Trebuchet MS'] font-black text-black mx-auto">
-    Where Inspirit AI Alumni Continue Their Journey
-  </h1>
-  <p className="text-[#000000] text-lg mt-4">
-    Charting the paths of excellence across global universities
-  </p>
-</div>
+          <h1 className="text-2xl md:text-3xl lg:text-5xl leading-relaxed tracking-tight font-['Trebuchet MS'] font-black text-black mx-auto">
+            Where Inspirit AI Alumni Continue Their Journey
+          </h1>
+          <p className="text-[#000000] text-lg md:text-xl lg:text-2xl mt-4">
+            Charting the paths of excellence across global universities
+          </p>
+        </div>
 
         {/* Filters Section */}
         <div className="flex justify-center gap-4 mb-8">
