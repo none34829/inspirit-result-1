@@ -33,19 +33,12 @@ const IVY_PLUS = new Set([
   'Washington University in St. Louis'
 ]);
 
-const UniversityList = () => {
-  const [allUniversities, setAllUniversities] = useState<University[]>([]);
+const UniversityList: React.FC = () => {
   const [classYearFilter, setClassYearFilter] = useState<string>('');
   const [categoryFilter, setCategoryFilter] = useState<UniversityCategory>('all');
   const [visibleCount, setVisibleCount] = useState<number>(20);
-
-  const getGraduates = (university: University): number => {
-    if (!classYearFilter) {
-      return Object.values(university.graduatesByYear).reduce((a, b) => a + b, 0);
-    }
-    const year = parseInt(classYearFilter);
-    return university.graduatesByYear[year] || 0;
-  };
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [allUniversities, setAllUniversities] = useState<University[]>([]);
 
   useEffect(() => {
     console.log('Loading universities...');
@@ -53,6 +46,13 @@ const UniversityList = () => {
     console.log('Category filter:', categoryFilter);
 
     let filtered = universities;
+
+    // Apply search filter
+    if (searchQuery) {
+      filtered = filtered.filter(uni => 
+        uni.name.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    }
 
     // Apply category filter
     if (categoryFilter !== 'all') {
@@ -77,17 +77,24 @@ const UniversityList = () => {
       const aIsIvy = IVY_PLUS.has(a.name);
       const bIsIvy = IVY_PLUS.has(b.name);
       
-      if (aIsIvy && !bIsIvy) return -1;
-      if (!aIsIvy && bIsIvy) return 1;
+      if (aIsIvy !== bIsIvy) return bIsIvy ? 1 : -1;
       
-      // If both are Ivy+ or both are not Ivy+, sort alphabetically
       return a.name.localeCompare(b.name);
     });
 
     console.log('Filtered universities length:', filtered.length);
     setAllUniversities(filtered);
     setVisibleCount(20); // Reset visible count when filters change
-  }, [classYearFilter, categoryFilter]);
+
+  }, [classYearFilter, categoryFilter, searchQuery]);
+
+  const getGraduates = (university: University): number => {
+    if (!classYearFilter) {
+      return Object.values(university.graduatesByYear).reduce((a, b) => a + b, 0);
+    }
+    const year = parseInt(classYearFilter);
+    return university.graduatesByYear[year] || 0;
+  };
 
   const totalGraduates = allUniversities.reduce((sum, university) => sum + getGraduates(university), 0);
   const defaultLogo = "https://img2.storyblok.com/0x60/f/112543/256x256/3c32249a6e/default-university.png";
@@ -127,6 +134,31 @@ const UniversityList = () => {
 
         {/* Filters Section */}
         <div className="flex justify-center gap-4 mb-8">
+          <div className="relative">
+            <input
+              type="text"
+              placeholder="Search universities..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200 outline-none w-64 bg-white/90 backdrop-blur-sm"
+            />
+            <svg
+              className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM19 19l-4.35-4.35"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
           {/* Category Filter */}
           <div className="relative w-64">
             <select
