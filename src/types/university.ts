@@ -11,7 +11,7 @@ export const universities: University[] = [
   {
     "name": "Adrian College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/Adrian_College_seal.svg",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -21,7 +21,7 @@ export const universities: University[] = [
   {
     "name": "American University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/A/american-university-washington-d-c-logo-0DF38787E6-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 2,
@@ -31,7 +31,7 @@ export const universities: University[] = [
   {
     "name": "American University of Beirut",
     "country": "United States",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2okutu07AxiAjnKVyFplnE6tPUeQX_1nf8sU6MVZkzIZqUi7iOCEE5MmilBykiibT5s&usqp=CAU",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -41,7 +41,7 @@ export const universities: University[] = [
   {
     "name": "American University of Sharjah",
     "country": "United States",
-    "logo": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/c/c8/American_University_of_Sharjah_%28emblem%29.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -51,7 +51,7 @@ export const universities: University[] = [
   {
     "name": "Amherst College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://www.amherst.edu/system/files/media/Amherst-College-seal-purple-stomp-575px.webp?__=1737120625",
     "graduatesByYear": {
       "2026": 1,
       "2027": 2,
@@ -61,7 +61,7 @@ export const universities: University[] = [
   {
     "name": "Appalachian State University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://uc.appstate.edu/sites/default/files/logos/app-state-block-a-logo-600px.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 0,
@@ -71,7 +71,7 @@ export const universities: University[] = [
   {
     "name": "Arizona State University",
     "country": "United States",
-    "logo": "",
+    "logo": "https://aci.az.gov/sites/default/files/media/ASU-logo.png",
     "graduatesByYear": {
       "2026": 7,
       "2027": 6,
@@ -80,8 +80,8 @@ export const universities: University[] = [
   },
   {
     "name": "Ashoka University",
-    "country": "United States",
-    "logo": "",
+    "country": "India",
+    "logo": "https://we-recycle.org/wp-content/uploads/2014/03/ashoka-university-logo.png?w=269",
     "graduatesByYear": {
       "2026": 0,
       "2027": 3,
@@ -90,8 +90,8 @@ export const universities: University[] = [
   },
   {
     "name": "Ateneo de Manila University",
-    "country": "United States",
-    "logo": "",
+    "country": "Philippines",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/6/6c/Ateneo_de_Manila_University_seal.svg",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -101,7 +101,7 @@ export const universities: University[] = [
   {
     "name": "Babson College",
     "country": "United States",
-    "logo": "https://img2.storyblok.com/0x60/f/112543/256x256/3c32249a6e/babson.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Babson-logo.png",
     "graduatesByYear": {
       "2026": 2,
       "2027": 1,
@@ -111,7 +111,7 @@ export const universities: University[] = [
   {
     "name": "Barnard College",
     "country": "United States",
-    "logo": "https://img2.storyblok.com/0x60/f/112543/256x256/3c32249a6e/barnard.png",
+    "logo": "https://cdn.brandfetch.io/idxFLbiQ_r/w/400/h/400/theme/dark/icon.jpeg?c=1bfwsmEH20zzEfSNTed",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -121,7 +121,7 @@ export const universities: University[] = [
   {
     "name": "Barrett, The Honors College",
     "country": "United States",
-    "logo": "",
+    "logo": "https://scontent.fdel48-1.fna.fbcdn.net/v/t39.30808-6/327132858_1234330040490626_1886796174316944986_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Zwjfhat9TZMQ7kNvgFZmde_&_nc_zt=23&_nc_ht=scontent.fdel48-1.fna&_nc_gid=AOOZCrOZJaflu0o033a327M&oh=00_AYCUp6p75Rg-WWZQiB1mEX-z5TykzxeyN6CR1JiXTZZbUg&oe=6791912E",
     "graduatesByYear": {
       "2026": 0,
       "2027": 0,

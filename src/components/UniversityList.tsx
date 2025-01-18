@@ -131,9 +131,9 @@ const UniversityList = () => {
               onChange={(e) => setCategoryFilter(e.target.value as UniversityCategory)}
             >
               <option value="all">All Universities</option>
+              <option value="ivy_plus">Ivy League+</option>
               <option value="us_colleges">US Colleges</option>
               <option value="non_us_colleges">Non-US Colleges</option>
-              <option value="ivy_plus">Ivy League+</option>
             </select>
             <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-[#565889]">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
