@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'University Listings',
-  description: 'Browse universities and their graduates',
+  title: 'Inspirit AI Admissions Results',
+  description: 'Discover Inspirit AI admissions results. Explore the universities our graduates attend and learn about their academic success stories.',
 };
 
 export default function RootLayout({

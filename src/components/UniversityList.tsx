@@ -133,34 +133,35 @@ const UniversityList: React.FC = () => {
         </div>
 
         {/* Filters Section */}
-        <div className="flex justify-center gap-4 mb-8">
-          <div className="relative">
+        <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-4 mb-8 px-4 sm:px-0">
+          <div className="relative w-full sm:w-64">
             <input
               type="text"
               placeholder="Search universities..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200 outline-none w-64 bg-white/90 backdrop-blur-sm"
+              className="w-full px-4 py-3 bg-white border-2 border-[#565889] rounded-xl appearance-none text-[#2F3167] focus:outline-none focus:border-[#2F3167] focus:ring-2 focus:ring-[#2F3167]/20 transition-all duration-300 pl-12"
             />
-            <svg
-              className="absolute left-3 top-[42.5%] -translate-y-1/2 text-gray-400 pointer-events-none"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7.33333 12.6667C10.2789 12.6667 12.6667 10.2789 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667ZM7.33333 12.6667L7.33333 12.6667ZM14 14L11.6667 11.6667"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+            <div className="absolute inset-y-0 left-0 flex items-center px-3 pointer-events-none text-[#565889]">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.33333 12.6667C10.2789 12.6667 12.6667 10.2789 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667ZM7.33333 12.6667L7.33333 12.6667ZM14 14L11.6667 11.6667"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
           </div>
           {/* Category Filter */}
-          <div className="relative w-64">
+          <div className="relative w-full sm:w-64">
             <select
               className="w-full px-4 py-3 bg-white border-2 border-[#565889] rounded-xl appearance-none text-[#2F3167] cursor-pointer focus:outline-none focus:border-[#2F3167] focus:ring-2 focus:ring-[#2F3167]/20 transition-all duration-300"
               value={categoryFilter}
@@ -179,7 +180,7 @@ const UniversityList: React.FC = () => {
           </div>
 
           {/* Year Filter */}
-          <div className="relative w-64">
+          <div className="relative w-full sm:w-64">
             <select
               className="w-full px-4 py-3 bg-white border-2 border-[#565889] rounded-xl appearance-none text-[#2F3167] cursor-pointer focus:outline-none focus:border-[#2F3167] focus:ring-2 focus:ring-[#2F3167]/20 transition-all duration-300"
               value={classYearFilter}
