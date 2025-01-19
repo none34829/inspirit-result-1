@@ -1699,46 +1699,6 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "UC Berkeley",
-    "country": "United States",
-    "logo": "https://seeklogo.com/images/B/berkeley-university-logo-1EC2AA681F-seeklogo.com.png",
-    "graduatesByYear": {
-      "2026": 4,
-      "2027": 2,
-      "2028": 4
-    }
-  },
-  {
-    "name": "UC Irvine",
-    "country": "United States",
-    "logo": "https://seeklogo.com/images/U/uc-irvine-anteaters-logo-27B57856EF-seeklogo.com.png",
-    "graduatesByYear": {
-      "2026": 12,
-      "2027": 15,
-      "2028": 9
-    }
-  },
-  {
-    "name": "UC San Diego",
-    "country": "United States",
-    "logo": "https://seeklogo.com/images/U/university-of-california-san-diego-logo-DC4B544C41-seeklogo.com.png",
-    "graduatesByYear": {
-      "2026": 10,
-      "2027": 26,
-      "2028": 10
-    }
-  },
-  {
-    "name": "UC Santa Barbara",
-    "country": "United States",
-    "logo": "https://seeklogo.com/images/U/uc-santa-barbara-gauchos-logo-9BAFD57C60-seeklogo.com.png",
-    "graduatesByYear": {
-      "2026": 8,
-      "2027": 4,
-      "2028": 5
-    }
-  },
-  {
     "name": "University College London",
     "country": "England",
     "logo": "https://images.seeklogo.com/logo-png/38/2/university-college-london-ucl-logo-png_seeklogo-384008.png?v=1957691849142190760",
@@ -1749,19 +1709,9 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "UCLA",
-    "country": "United States",
-    "logo": "https://seeklogo.com/images/U/ucla-bruins-logo-FD8D60AABC-seeklogo.com.png",
-    "graduatesByYear": {
-      "2026": 21,
-      "2027": 26,
-      "2028": 17
-    }
-  },
-  {
     "name": "United States Air Force Academy",
     "country": "United States",
-    "logo": "",
+    "logo": "https://images.seeklogo.com/logo-png/51/2/united-states-air-force-academy-logo-png_seeklogo-519228.png?v=1957825106839741632",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -1771,7 +1721,7 @@ export const universities: University[] = [
   {
     "name": "United States Naval Academy",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/united-states-naval-academy-logo-BD61B71C8B-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -1780,8 +1730,8 @@ export const universities: University[] = [
   },
   {
     "name": "Universidad Carlos III de Madrid",
-    "country": "United States",
-    "logo": "",
+    "country": "Spain",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Logo_UC3M.svg/768px-Logo_UC3M.svg.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -1789,19 +1739,9 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "Universitas Atma Jaya Yogyakarta",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 1
-    }
-  },
-  {
     "name": "University at Buffalo",
     "country": "United States",
-    "logo": "",
+    "logo": "https://www.buffalo.edu/content/www/brand/identity/university-logo-and-marks/_jcr_content/par/image_13.img.209.auto.png/1460123040155.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 3,
@@ -1810,8 +1750,8 @@ export const universities: University[] = [
   },
   {
     "name": "University of Alberta",
-    "country": "United States",
-    "logo": "",
+    "country": "Canada",
+    "logo": "https://images.seeklogo.com/logo-png/48/2/university-of-alberta-logo-png_seeklogo-487548.png?v=1957675899742513816",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -1820,8 +1760,8 @@ export const universities: University[] = [
   },
   {
     "name": "University of Amsterdam",
-    "country": "United States",
-    "logo": "",
+    "country": "Netherlands",
+    "logo": "https://seeklogo.com/images/U/university-of-amsterdam-logo-259A12BDDB-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -1831,7 +1771,7 @@ export const universities: University[] = [
   {
     "name": "University of Arizona",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-arizona-logo-02A8CB5ACB-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -1840,8 +1780,8 @@ export const universities: University[] = [
   },
   {
     "name": "University of Bath",
-    "country": "United States",
-    "logo": "",
+    "country": "England",
+    "logo": "https://seeklogo.com/images/U/university-of-bath-logo-F7E857C9BD-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 3,
       "2027": 0,
@@ -1850,8 +1790,8 @@ export const universities: University[] = [
   },
   {
     "name": "University of Bristol",
-    "country": "United States",
-    "logo": "",
+    "country": "England",
+    "logo": "https://seeklogo.com/images/U/University_of_Bristol-logo-D30E16C270-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -1859,49 +1799,29 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "University of California",
+    "name": "University of California, San Diego",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-california-san-diego-logo-DC4B544C41-seeklogo.com.png",
     "graduatesByYear": {
-      "2026": 1,
-      "2027": 4,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of California San Diego",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 1,
-      "2027": 2,
-      "2028": 1
+      "2026": 11,
+      "2027": 28,
+      "2028": 12
     }
   },
   {
     "name": "University of California, Berkeley",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/B/berkeley-university-logo-1EC2AA681F-seeklogo.com.png",
     "graduatesByYear": {
-      "2026": 51,
-      "2027": 40,
-      "2028": 33
-    }
-  },
-  {
-    "name": "University of California, Berkeley, Haas School of Business",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 1,
-      "2028": 1
+      "2026": 55,
+      "2027": 43,
+      "2028": 38
     }
   },
   {
     "name": "University of California, Davis",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-california-davis-logo-E1FD2FC656-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 12,
       "2027": 10,
@@ -1911,27 +1831,27 @@ export const universities: University[] = [
   {
     "name": "University of California, Irvine",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/uc-irvine-anteaters-logo-27B57856EF-seeklogo.com.png",
     "graduatesByYear": {
-      "2026": 6,
-      "2027": 5,
-      "2028": 0
+      "2026": 18,
+      "2027": 20,
+      "2028": 9
     }
   },
   {
     "name": "University of California, Los Angeles",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/ucla-bruins-logo-FD8D60AABC-seeklogo.com.png",
     "graduatesByYear": {
-      "2026": 5,
-      "2027": 6,
-      "2028": 2
+      "2026": 26,
+      "2027": 32,
+      "2028": 19
     }
   },
   {
     "name": "University of California, Merced",
     "country": "United States",
-    "logo": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/5/51/UC_Merced_Seal.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 4,
@@ -1941,7 +1861,7 @@ export const universities: University[] = [
   {
     "name": "University of California, Riverside",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-california-riverside-logo-9365035EE5-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 6,
       "2027": 2,
@@ -1949,29 +1869,19 @@ export const universities: University[] = [
     }
   },
   {
-    "name": "University of California, San Diego",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 1
-    }
-  },
-  {
     "name": "University of California, Santa Barbara",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/uc-santa-barbara-gauchos-logo-9BAFD57C60-seeklogo.com.png",
     "graduatesByYear": {
-      "2026": 1,
-      "2027": 3,
-      "2028": 0
+      "2026": 9,
+      "2027": 7,
+      "2028": 5
     }
   },
   {
     "name": "University of California, Santa Cruz",
     "country": "United States",
-    "logo": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_University_of_California_1868_UCSC.svg",
     "graduatesByYear": {
       "2026": 11,
       "2027": 16,
@@ -1980,8 +1890,8 @@ export const universities: University[] = [
   },
   {
     "name": "University of Cambridge",
-    "country": "United States",
-    "logo": "",
+    "country": "England",
+    "logo": "https://seeklogo.com/images/U/university-of-cambridge-logo-E6ED593FBF-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 3,
       "2027": 5,
@@ -1991,7 +1901,7 @@ export const universities: University[] = [
   {
     "name": "University of Central Florida",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/ucf-university-of-central-florida-logo-503B602697-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 2,
@@ -2001,7 +1911,7 @@ export const universities: University[] = [
   {
     "name": "University of Chicago",
     "country": "United States",
-    "logo": "https://img2.storyblok.com/0x60/filters:format(webp)/f/112543/1200x1523/cc92fcdba3/1200px-university_of_chicago_shield-svg.png",
+    "logo": "https://seeklogo.com/images/U/university-of-chicago-logo-0F38E68A5B-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 8,
       "2027": 16,
@@ -2011,19 +1921,9 @@ export const universities: University[] = [
   {
     "name": "University of Cincinnati",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-cincinnati-logo-068790B207-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 2,
-      "2027": 0,
-      "2028": 0
-    }
-  },
-  {
-    "name": "University of Cincinnati - College of Engineering and Applied Science",
-    "country": "United States",
-    "logo": "",
-    "graduatesByYear": {
-      "2026": 0,
       "2027": 0,
       "2028": 1
     }
@@ -2031,7 +1931,7 @@ export const universities: University[] = [
   {
     "name": "University of Colorado Boulder",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-colorado-boulder-logo-FD14032FDF-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 2,
@@ -2041,7 +1941,7 @@ export const universities: University[] = [
   {
     "name": "University of Connecticut",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/uconn-university-of-connecticut-logo-628B6947D6-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 3,
@@ -2051,7 +1951,7 @@ export const universities: University[] = [
   {
     "name": "University of Dayton",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-dayton-logo-8829C6C015-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -2060,8 +1960,8 @@ export const universities: University[] = [
   },
   {
     "name": "University of Delhi",
-    "country": "United States",
-    "logo": "",
+    "country": "India",
+    "logo": "https://seeklogo.com/images/U/university-of-delhi-logo-3DE170CB5E-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 0,
       "2027": 1,
@@ -2070,8 +1970,8 @@ export const universities: University[] = [
   },
   {
     "name": "University of East Anglia",
-    "country": "United States",
-    "logo": "",
+    "country": "England",
+    "logo": "https://seeklogo.com/images/U/university-of-east-anglia-logo-1D7DF6FCE8-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 0,
@@ -2080,8 +1980,8 @@ export const universities: University[] = [
   },
   {
     "name": "University of Exeter",
-    "country": "United States",
-    "logo": "",
+    "country": "England",
+    "logo": "https://seeklogo.com/images/U/university-of-exeter-logo-1A0C84D6B5-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 1,
       "2027": 2,
@@ -2091,7 +1991,7 @@ export const universities: University[] = [
   {
     "name": "University of Florida",
     "country": "United States",
-    "logo": "",
+    "logo": "https://seeklogo.com/images/U/university-of-florida-logo-375A948311-seeklogo.com.png",
     "graduatesByYear": {
       "2026": 4,
       "2027": 5,
